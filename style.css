@@ -9,7 +9,7 @@ nav ul{
     text-align: right;
     padding: 0;
     margin: 0;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 nav li{
     display: inline-block;
@@ -49,5 +49,44 @@ p{
     color: #d946ef;
 }
 h2{
-    color: #4a044e;
+    color:#be185d;
+}
+.college{
+    margin-top: 5rem ;
+    font-size: 2rem;
+}
+.course{
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+.course li{
+    color: #d946ef;
+}
+.cont{
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+.link-type a{
+    text-decoration: none;
+    color: #d946ef;
+
+    font-size: 2rem;
+}
+.link-type{
+    list-style-type: none;
+    margin-top: 5rem;
+    
+}
+.picture-one img{
+    height:50px ;
+    width: 50px;
+    
+}
+.picture-two img{
+    height:50px ;
+    width: 50px;
+}
+.picture-three img{
+    height:50px ;
+    width: 50px;
 }
