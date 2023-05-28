@@ -2,18 +2,33 @@ body{
     margin-left: 6rem;
     margin-top: 4rem;
 }
-h3{
-    font-size: 1.5rem;
+
+nav ul{
+    list-style-type: none;
+    background-color: blueviolet;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    border-radius: 0.5rem;
 }
-nav {
-    margin-left: 35rem;
-    margin-top: -3rem;
+nav li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    width: 80px;
+    display: block;
+    padding: 15px;
+    font-size: 17px;
+    transition: 0.4s;
     
 }
-.link{
-    padding:2rem;
-    list-style-type: none;
+li a{
+    margin-left: 5rem;
 }
+
+
 h1{
     margin-top: 13rem;
     font-size:3rem;
@@ -25,4 +40,14 @@ h1{
     border-radius: 12rem;
     margin-left: 45rem;
     margin-top: -19rem;
+}
+.information{
+    margin-top: 5rem;
+    font-size:2rem;
+}
+p{
+    color: #d946ef;
+}
+h2{
+    color: #4a044e;
 }
