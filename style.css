@@ -27,6 +27,9 @@ nav a{
 li a{
     margin-left: 5rem;
 }
+li a:hover{
+    color: black;
+}
 
 
 h1{
@@ -70,23 +73,31 @@ h2{
     text-decoration: none;
     color: #d946ef;
 
-    font-size: 2rem;
+    
 }
 .link-type{
     list-style-type: none;
-    margin-top: 5rem;
+    margin-top: -10.5rem;
+    font-size: 3rem;
     
 }
+li .link-one{
+    margin-top: 4rem;
+}
+
 .picture-one img{
-    height:50px ;
-    width: 50px;
-    
+    height: 60px;
+    width: 60px;
+    margin-top: 6rem;
 }
 .picture-two img{
-    height:50px ;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+    margin-left: 0.6rem;
 }
 .picture-three img{
-    height:50px ;
+    height: 50px;
     width: 50px;
+    margin-top: 0.5rem;
 }
+
